@@ -35,6 +35,35 @@ This is a simple web-based Tic Tac Toe game implemented in a single HTML file co
 - `highlightWinningCells()`: Visually highlights the winning combination
 - `resetGame()`: Resets the game board and state for a new game
 
+## Development Workflow
+
+### Git Practices
+
+As you work on this project, it's essential to maintain proper version control:
+
+1. **Commit Frequently**: Make commits as you complete logical units of work
+2. **Write Descriptive Commit Messages**: Each commit message should clearly describe what changes were made and why
+3. **Push to GitHub Regularly**: Push your commits to the GitHub repository to ensure work is backed up and accessible
+
+### Commit Message Guidelines
+
+- Use clear, concise messages in present tense (e.g., "Add feature" not "Added feature")
+- Start with a capital letter
+- Keep the first line under 72 characters if possible
+- Use additional lines for detailed explanations when needed
+
+Example good commit messages:
+- "Add player turn indicator to status display"
+- "Fix bug preventing diagonal win detection"
+- "Improve responsive design for mobile devices"
+
+### Git Commands
+
+- `git add .` - Stage all changes
+- `git commit -m "Your descriptive message"` - Commit changes
+- `git push origin main` - Push changes to GitHub
+- `git pull origin main` - Pull latest changes from GitHub
+
 ## Common Development Tasks
 
 ### Running the Game
